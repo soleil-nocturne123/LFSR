@@ -3,5 +3,6 @@
 *.qdb
 *.qpg
 *.qtl
+*.mti
 *_info
 *_vmake
