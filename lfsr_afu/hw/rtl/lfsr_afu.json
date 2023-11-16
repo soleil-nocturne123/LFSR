@@ -6,11 +6,11 @@
             "class": "ccip_std_afu"
          },
       "accelerator-clusters": [
-            {
-               "name": "lfsr_afu",
-               "total-contexts": 1,
-               "accelerator-type-uuid": "8031be25-0cf4-40ee-a411-dbaf7e894df5"
-            }
+        {
+          "name": "lfsr_afu",
+          "total-contexts": 1,
+          "accelerator-type-uuid": "4314669b-b242-438f-8dca-ce850f4ea622"
+        }
          ]
    }
 }
