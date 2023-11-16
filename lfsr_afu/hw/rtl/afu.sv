@@ -40,7 +40,7 @@ module afu (input clock, input reset, input t_if_ccip_Rx rx, output t_if_ccip_Tx
     assign W = rx.c0.mmioWrValid;   // rename write signal
 	 
 	 /* INSTANTIATE APPLICATION UNIT */
-	 application #(.n)(.reset, .clock, .W, .A, .D, .Poly, .Ctrl, .Q);
+	 application #(.n(n)) a1(.reset, .clock, .W, .A, .D, .Poly, .Ctrl, .Q);
 
     // The AFU must respond with its AFU ID in response to MMIO reads of
     // the CCI-P device feature header (DFH).  The AFU ID is a unique ID
