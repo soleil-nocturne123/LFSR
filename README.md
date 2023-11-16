@@ -4,7 +4,7 @@ AFU (Acceleration FPGA Unit) with LFSR (Linear Feedback Shift Register) as the a
 - The AFU is downloaded into a target FPGA device using the Arria 10 Development Stack on the Intel DevCloud.
 - The FPGA Interface Manager (AFU + FIU) communicates with the host processor via a PCIe port.
 
- Directory Hierachy
+ Directory Hierachy\
  docs: Documents related to this project, including:
   - Application logic block diagram and detailed design
   - Host Processor <-> FIM block diagram
